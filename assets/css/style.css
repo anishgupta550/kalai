@@ -4,3 +4,19 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+:root{
+    --first:#ad2807;
+    --second:#d87001;
+    --third:black;
+}
+header{
+    background: var(--second);
+    color: white;
+    a{
+        text-decoration: none;
+        font-size: 12px;
+    }
+    small{
+        font-size: 14px;
+    }
+}
