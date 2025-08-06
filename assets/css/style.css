@@ -20,3 +20,41 @@ header{
         font-size: 14px;
     }
 }
+section.bottomHeader{
+    background: var(--second);
+    .dropdown-menu{
+        background-color: white !important;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.262) !important;
+        padding: 10px;
+        top: 100% !important;
+    }
+    .dropdown .dropdown-toggle{
+        color: white !important;
+        text-decoration: none;
+    }
+    .dropdown .dropdown-divider{
+        border-top: 1px solid rgba(0, 0, 0, 0.521) !important;
+    }
+}
+.offcanvas{
+    background-color: white !important;
+    form input{
+        border:1px solid black !important;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.offerSection{
+    background: var(--second);
+    .container h5{
+        color: white;
+    }
+    .container small{
+        color: white;
+    }
+    .borderNewHere{
+        border-left: 2px solid rgba(255, 255, 255, 0.267) !important;
+        border-right: 2px solid rgba(255, 255, 255, 0.267) !important;
+    }
+}
