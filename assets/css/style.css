@@ -57,4 +57,38 @@ section.bottomHeader{
         border-left: 2px solid rgba(255, 255, 255, 0.267) !important;
         border-right: 2px solid rgba(255, 255, 255, 0.267) !important;
     }
+    i{
+        color: white !important;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+}
+#productOne{
+    a{
+        text-decoration: none;
+    }
+}
+#productTwo{
+    a{
+        text-decoration: none;
+    }
+}
+footer{
+    background: var(--second);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    ul{
+        list-style: none;
+    }
+    li{
+        color: white;
+        padding: 7px 0px;
+    }
+    h5{
+        color: white;
+    }
+}
+.changeBg{
+    background: var(--second);
+    color: white;
 }
